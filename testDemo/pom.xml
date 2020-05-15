@@ -50,7 +50,7 @@
                 <version>2.17</version>
                 <configuration>
                     <suiteXmlFile>
-                        ./testDemo/testGrid.xml
+                        ./testGrid.xml
                     </suiteXmlFile>
                 </configuration>
             </plugin>
