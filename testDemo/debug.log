@@ -1,3 +1,7 @@
 [0426/141534.159:ERROR:process_info.cc(329)] VirtualQueryEx: 拒绝访问。 (0x5)
 [0426/141534.160:ERROR:process_info.cc(556)] ReadMemoryInfo failed
 [0426/141534.160:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: 已尝试访问正在退出的过程。 (0xc000010a)
+[0515/100352.139:ERROR:process_reader_win.cc(123)] NtOpenThread: {无法访问} 过程已请求访问一对象，但未给访问权限。 (0xc0000022)
+[0515/100352.140:ERROR:exception_snapshot_win.cc(98)] thread ID 13020 not found in process
+[0515/100352.213:ERROR:process_reader_win.cc(123)] NtOpenThread: {无法访问} 过程已请求访问一对象，但未给访问权限。 (0xc0000022)
+[0515/100352.213:ERROR:exception_snapshot_win.cc(98)] thread ID 17880 not found in process

@@ -47,11 +47,10 @@ public class shotTest {
     public void shot2() throws InterruptedException {
         driver.get("https://testsaas.qingxiaoguo.com/#/login");
         driver.findElement(By.xpath("//*[@id=\"app\"]/div/div[2]/div/form/div[1]/div/div/div[2]/div/input")).sendKeys("15110403429");
-        driver.findElement(By.xpath("//*[@id=\"app\"]/div/div[2]/div/form/div[2]/div/div/div[2]/div/input")).sendKeys("sn1823555394");
+        driver.findElement(By.xpath("//*[@id=\"app\"]/div/div[2]/div/form/div[2]/div/div/div[2]/div/input")).sendKeys("123456");
         driver.findElement(By.xpath("//*[@id=\"app\"]/div/div[2]/div/div[2]/div/div[1]")).click();
         Thread.sleep(3000);
         String url=driver.getCurrentUrl();
-        Assert.assertEquals(url,"https://testsaas.qingxiaoguo.com/#/clinic/index");
         File file=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
         try{
             FileUtils.copyFile(file,new File("E:\\test2.png"));

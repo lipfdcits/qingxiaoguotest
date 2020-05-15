@@ -8,6 +8,7 @@ import org.testng.Assert;
 import org.testng.annotations.*;
 
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 public class ActionsBrowserTest {
     WebDriver driver;
@@ -17,23 +18,24 @@ public class ActionsBrowserTest {
         //打开chrome
         System.setProperty("webdriver.chrome.driver","C:\\Users\\青小果6\\fireFoxDriver\\chromedriver.exe");
         driver=new ChromeDriver();
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.get("https://testsaas.qingxiaoguo.com/#/cashier/cashMain");
     }
 
-    @Test
-    public void openBrowser() throws InterruptedException {
-        //打开百度
-        WebElement find = driver.findElement(By.linkText("地图"));
-        System.out.println("搜索的元素存在："+find);
-        Thread.sleep(3000);
-    }
+//    @Test
+//    public void openBrowser() throws InterruptedException {
+//        //打开百度
+//        WebElement find = driver.findElement(By.linkText("地图"));
+//        System.out.println("搜索的元素存在："+find);
+//
+//    }
 
-    @Test
-    public void opBrowser1() throws InterruptedException {
-        String url=driver.getCurrentUrl();
-        Assert.assertEquals(url,"https://www.baidu.com/");
-        Thread.sleep(3000);
-    }
+//    @Test
+//    public void opBrowser1() throws InterruptedException {
+//        String url=driver.getCurrentUrl();
+//        Assert.assertEquals(url,"https://www.baidu.com/");
+//        Thread.sleep(3000);
+//    }
 
     @Test
     public void openBrowser2(){
@@ -54,13 +56,13 @@ public class ActionsBrowserTest {
 
     }
 
-    @Test
-    public void xpathTest() throws InterruptedException {
-        WebElement element= driver.findElement(By.className("login-content-container-btn"));
-        String text=element.getText();
-        System.out.println("输出："+text);
-        Thread.sleep(3000);
-    }
+//    @Test
+//    public void xpathTest() throws InterruptedException {
+//        WebElement element= driver.findElement(By.className("login-content-container-btn"));
+//        String text=element.getText();
+//        System.out.println("输出："+text);
+//        Thread.sleep(3000);
+//    }
 
     @AfterMethod
     public void closedBrowser(){
