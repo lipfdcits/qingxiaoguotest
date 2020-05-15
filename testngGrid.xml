@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default Suite">
+  <test name="springboottest01">
+    <classes>
+      <class name="com.example.springboottest01.TestZhuShi"/>
+    </classes>
+  </test> <!-- springboottest01 -->
+</suite> <!-- Default Suite -->
