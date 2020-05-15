@@ -4,7 +4,6 @@
   <test name="springboottest01">
     <classes>
       <class name="com.testng.TestZhuShi">
-
       </class> <!-- qingxiaoguo.TestGrid -->
     </classes>
   </test> <!-- springboottest01 -->
