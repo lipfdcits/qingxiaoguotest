@@ -3,7 +3,7 @@
 <suite name="Default Suite" thread-count="2" parallel="methods">
   <test name="springboottest01">
     <classes>
-      <class name="com.po.service.firstPage">
+      <class name="com.testng.TestZhuShi">
 
       </class> <!-- qingxiaoguo.TestGrid -->
     </classes>
