@@ -3,8 +3,8 @@
 <suite name="Default Suite">
   <test name="springboottest01">
     <classes>
-      <class name="com.testng.TestZhuShi">
-      </class> <!-- qingxiaoguo.TestGrid -->
+      <class name="com.testng.TestZhuShi"/>
+      <!-- qingxiaoguo.TestGrid -->
     </classes>
   </test> <!-- springboottest01 -->
 </suite> <!-- Default Suite -->
