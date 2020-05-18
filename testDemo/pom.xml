@@ -49,9 +49,11 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>2.17</version>
                 <configuration>
-                    <suiteXmlFile>
-                        .testDrmo/testGrid.xml
-                    </suiteXmlFile>
+                    <suiteXmlFiles>
+                        <suiteXmlFile>
+                            .testDrmo/testGrid.xml
+                        </suiteXmlFile>
+                    </suiteXmlFiles>
                 </configuration>
             </plugin>
         </plugins>
