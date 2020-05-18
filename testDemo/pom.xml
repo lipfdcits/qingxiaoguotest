@@ -51,7 +51,7 @@
                 <configuration>
                     <suiteXmlFiles>
                         <suiteXmlFile>
-                            .testDrmo/testGrid.xml
+                            ./testGrid.xml
                         </suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>

@@ -51,7 +51,7 @@
                 <configuration>
                     <suiteXmlFiles>
                         <suiteXmlFile>
-                            .testDrmo/testGrid.xml
+                            ./testJenkins.xml
                         </suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
