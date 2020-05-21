@@ -6,7 +6,6 @@
     <modules>
         <module>testDemo</module>
         <module>TestJenkins</module>
-        <module>qingxiaoguotest</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
